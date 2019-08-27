@@ -1,7 +1,7 @@
 body{
-    background-color: blueviolet;
+    background-color: #ffc;
     text-align: center;
-    line-height: 50vh;
+    line-height: 100vh;
     margin: 0;
 }
 
@@ -9,16 +9,14 @@ button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     vertical-align: middle;
-    height: 500px;
-    width: 200;
-    font-size: 40px;
-    background-color: blue;
-    color: #000000
+    width: 80px;
+    height: 400px;
+    background-color: #fff;
+    color: #000000;
 }
 
 button.sharp{
-    width: 200;
-    font-size: 40px;
-    color: #000000;
-    background-color: green;
+    width: 50px;
+    background-color: #000000;
+    color: #fff;
 }
