@@ -2,7 +2,9 @@ const buttons = document.querySelectorAll('button');
 
 const playnote = ()=>{
 
-    console.log(event.target);
+    const button = event.target;
+    const note = button.dataset.note;
+    console.log(note);
 }
 
 buttons.forEach(
