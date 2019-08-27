@@ -7,4 +7,4 @@ const playnote = ()=>{
 
 buttons.forEach(
     button => button.addEventListener('click', playnote)
-)
+);
