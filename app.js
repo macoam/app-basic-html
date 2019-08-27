@@ -17,3 +17,11 @@ const playnote = event =>{
 buttons.forEach(
     button => button.addEventListener('click', playnote)  
 );
+
+const keyNoteDown = event =>{
+    console.log(event);
+    const key = event.key;
+    console.log(key);
+}
+
+document.addEventListener('keydown' , keyNoteDown);
